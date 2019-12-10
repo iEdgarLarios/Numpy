@@ -1,0 +1,12 @@
+%%html
+<style>
+h1 {
+ color: green;
+ font-size: 5em !important;
+}
+</style>
+<script> 
+$( document ).ready(function () {
+    $("div#notebook-container").children().first().hide();
+});
+</script>
